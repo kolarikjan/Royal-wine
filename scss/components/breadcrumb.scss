@@ -1,6 +1,6 @@
 .breadcrumb {
-    padding: 5rem 0 5rem;
-    background-image: url("../img/header-background2.png");
+    padding: 6rem 0 6rem;
+    background-image: url("../img/subpage-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 0;
@@ -9,10 +9,10 @@
     }
     h1 {
         color: $secondary-color;
-        font-size: 52px;
-        font-weight: 500;
-        letter-spacing: -0.075rem;
-        margin-bottom: 1.25rem;
+        font-size: 45px;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        text-align: center;
         @include media("sm") {
             margin-bottom: 0;
             font-size: 40px;
@@ -21,19 +21,18 @@
     ul {
         list-style: none;
         margin: 0;
+        padding: 0;
         display: flex;
         flex-wrap: wrap;
-        background-image: url("../img/icon-home-white.png");
-        background-repeat: no-repeat;
-        background-position: top 4px left;
+        justify-content: center;
         a {
             color: $secondary-color;
-            font-size: 15px;
+            font-size: 13px;
             font-weight: 300;
         }
         li {
             &:not(:last-child)::after {
-                content: "/";
+                content: "|";
                 color: $secondary-color;
                 margin: 0 .75rem;
             }

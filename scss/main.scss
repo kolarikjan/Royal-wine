@@ -7,8 +7,8 @@
 @import "defaults/functions.scss";
 
 // Pages
-//@import "pages/subpage.scss";
-//@import "pages/contacts.scss";
+@import "pages/subpage.scss";
+@import "pages/contacts.scss";
 
 // Components
 @import "components/header.scss";
@@ -19,8 +19,9 @@
 @import "components/showcase.scss";
 @import "components/news.scss";
 @import "components/footer.scss";
-//@import "components/breadcrumb.scss";
-//@import "components/contactform.scss";
+@import "components/breadcrumb.scss";
+@import "components/contactform.scss";
+@import "components/stores.scss";
 
 // Style 
 @media (min-width: map-get($breaks, "xxl")) {
